@@ -58,7 +58,16 @@ h1 {
     width: 200px;
     height: 200px;
     margin: 20px;
-    
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px #aaa;
+    border: 8px solid #ffffff; /* Agregamos un borde blanco */
+    box-sizing: border-box; /* Aseguramos que el borde no aumente el tamaño */
+    transition: all 0.3s ease; /* Agregamos una transición suave */
+}
+
+.hero-imagen-desarrollador:hover {
+    border-color: #ff2600; /* Cambiamos el color del borde al pasar el mouse */
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2); /* Ajustamos la sombra para mayor efecto */
 }
 
 .hero-principal h2 {
@@ -181,7 +190,7 @@ h1 {
 
 /*Footer*/
 
-ooter {
+footer {
     min-height: 500px;
   }
   

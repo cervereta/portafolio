@@ -16,6 +16,7 @@
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <!-- Iconos de Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
@@ -27,44 +28,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
 
   </head>
   
 <body>
 
     <!--Barra de navegacion-->
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbar-toggler">
             <a class="navbar-brand" href="#">
-                <img src="imagenes/nuevologo2.png" width="100px" alt="Logo portafolio">
+                <img src="imagenes/nuevologo2.png" width="50px" alt="Logo portafolio">
             </a>
-            <ul class="navbar-nav d-flex justify-content-center align-items-center">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#experiencia">Lenguajes y Herramientas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contacto">Contacto</a>
-              </li>
-            </ul>
-            
-          </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+                <ul class="navbar-nav ms-auto d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#sobre-mi">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiencia">Lenguajes y Herramientas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
 
     <!--Seccion Hero--> 
     
     <section class="hero align-items-stretch">
       <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
         <img class="hero-imagen-desarrollador" src="imagenes/mia.png" alt="Foto de Jose Cervereta">
-        <h1>Hola, soy Jose Cervereta</h1>
-        <h2>Desarrollador junior de APPs con Kotlin y paginas Web.</h2>
+        <h1>Jose Cervera</h1>
+        <h2>Docente Informático y desarrollador de Páginas Web </h2>
       </div>
       <div class="hero-inferior">
         <img class="hero-inferior-imagen img-fluid" src="imagenes/inferior.png" alt="Monitores junto con lenguajes de programacion">
@@ -72,111 +74,165 @@
       </div>
     </section>
 
-    <!--Sobre mi-->
-    <section id="sobre-mi" class="sobre-mi seccion-oscura">
-      <div class="contenedor">
-        <h2 class="seccion-titulo">Sobre Jose Cervereta</h2>
-        <p class="seccion-texto">Despues de dedicar media vida a ser un trabajador autónomo,y unos cuantos años a trabajar por cuenta ajena,ahora el desafio es poder integrarme en el mundo del desarrollo informatico.</p>
+    <!-- Sobre mí -->
+<section id="sobre-mi" class="sobre-mi seccion-oscura">
+  <div class="container">
+      <h2 class="seccion-titulo">Sobre José Cervera</h2>
+      <p class="seccion-descripcion">Autodidacta apasionado por el desarrollo y la tecnología, con formación en múltiples disciplinas que complemento con experiencia práctica.</p>
+      <div class="formacion-contenedor row g-4">
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="formacion-item">
+                  <h3>Docencia de la Formación Profesional</h3>
+                  <p>SSCE0110 - Certificado conforme al BOE 1697/2011, expediente FNI15/2023/31/5/2.</p>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="formacion-item">
+                  <h3>Asistencia a la Dirección</h3>
+                  <p>ADGG0108 - Certificado BOE 1210/2009 y 645/2011, expediente FFI15/2022/56/5/1.</p>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="formacion-item">
+                  <h3>Comunicación Digital al Cliente</h3>
+                  <p>ADGG108PO - Expediente ILCOVU/2023/52/5/12.</p>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="formacion-item">
+                  <h3>Competencias Digitales Básicas</h3>
+                  <p>IFCT45 - Expediente FIT99/2023/38/1/12.</p>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="formacion-item">
+                  <h3>Competencias Digitales Avanzadas</h3>
+                  <p>IFCT46 - Expediente FIT99/2023/38/2/12.</p>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="formacion-item">
+                  <h3>Excel Avanzado y Power BI</h3>
+                  <p>IFCT56 - Expediente FIT99/2023/38/3/12.</p>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="formacion-item">
+                  <h3>Fundamentos de Excel</h3>
+                  <p>Expediente FFA15/2022/15/3/2.</p>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="formacion-item">
+                  <h3>Excel Avanzado</h3>
+                  <p>Expediente FFA15/2022/15/4/2.</p>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="formacion-item">
+                  <h3>Inserción Laboral y Sensibilización</h3>
+                  <p>FCOO03 - Expediente ILCOVU/2023/52/26/12.</p>
+              </div>
+          </div>
       </div>
-    </section>
+  </div>
+</section>
 
-    <!--Experiencia-->
-    
-    <section id="experiencia" class="experiencia seccion-clara">
-      <div class="container text-center">
-        <div class="row">
+    <!-- Experiencia -->
+<section id="experiencia" class="experiencia seccion-clara">
+  <div class="container text-center">
+      <h2 class="seccion-titulo mb-5">Lenguajes y Herramientas</h2> <!-- Título de sección -->
+      <div class="row g-4"> <!-- g-4 para espaciado uniforme -->
           <!-- Desarrollo Web -->
           <div class="columna col-12 col-md-4">
-            <i class="bi bi-laptop"></i>
-            <p class="experiencia-titulo">Desarrollo Web</p>
-            <p>Actualmente mis conocimientos de Junior se basan en los lenguajes HTML,CSS,JavaScript y Kotlin,haciendo hincapie en este ultimo que esta enfocado al desarrollo de APPs para moviles. </p>
-            <div class="badges-contenedor">
-              <span class="bi bi-filetype-html badge text-bg-primary">HTML</span>
-              <span class="bi bi-filetype-css badge text-bg-primary">CSS</span>
-              <span class="bi bi-filetype-js badge text-bg-primary">JavaScript</span>
-              <span class="bi bi-phone badge text-bg-primary">Kotlin</span>
-              <span class="bi bi-git badge text-bg-primary">Git</span>
-              <span class="bi bi-filetype-sql badge text-bg-primary">MySQL</span>
-              
-            </div>
+              <i class="bi bi-laptop"></i>
+              <h3 class="experiencia-titulo">Desarrollo Web</h3>
+              <p>Mis conocimientos como Junior incluyen HTML, CSS, JavaScript, PHP y SQL.</p>
+              <div class="badges-contenedor">
+                  <span class="badge text-bg-primary"><i class="bi bi-filetype-html"></i> HTML</span>
+                  <span class="badge text-bg-primary"><i class="bi bi-filetype-css"></i> CSS</span>
+                  <span class="badge text-bg-primary"><i class="bi bi-filetype-js"></i> JavaScript</span>
+                  <span class="badge text-bg-primary"><i class="bi bi-filetype-php"></i> PHP</span>
+                  <span class="badge text-bg-primary"><i class="bi bi-git"></i> Git</span>
+                  <span class="badge text-bg-primary"><i class="bi bi-filetype-sql"></i> MySQL</span>
+              </div>
           </div>
-          <!-- Articulos -->
+          <!-- Experiencia -->
           <div class="columna col-12 col-md-4">
-            <i class="bi bi-laptop"></i>
-            <p class="experiencia-titulo">Experiencia en</p>
-            <p>Mi experiencia,aunque es aun algo limitada la expongo en mi <a href="https://github.com/cervereta" target="_blank" rel="noopener noreferrer">Repositorio de GitHub.</a> y tambien como desarrollador en Telegram a traves de mi Canal <a href="https://t.me/creagramES" target="_blank" rel="noopener noreferrer">CreaGram</a></p>
-            <div class="badges-contenedor">
-              <span class="bi bi-github badge text-bg-primary">GitHub</span>
-              <span class="badge text-bg-primary">CreaGram</span>
-              
-            </div>
+              <i class="bi bi-briefcase"></i> <!-- Ícono más relevante -->
+              <h3 class="experiencia-titulo">Experiencia</h3>
+              <p>Mi trabajo se refleja en mi <a href="https://github.com/cervereta" target="_blank" rel="noopener noreferrer">repositorio de GitHub</a> y como desarrollador en Telegram a través de mi canal <a href="https://t.me/creagramES" target="_blank" rel="noopener noreferrer">CreaGram</a>.</p>
+              <div class="badges-contenedor">
+                  <span class="badge text-bg-primary"><i class="bi bi-github"></i> GitHub</span>
+                  <span class="badge text-bg-primary">CreaGram</span>
+              </div>
           </div>
           <!-- Estudios -->
           <div class="columna col-12 col-md-4">
-            <i class="bi bi-laptop"></i>
-            <p class="experiencia-titulo">Centro de Estudios</p>
-            <p>Mi formacion ha consistido en ser autodidacta y cursos en los centros que menciono abajo</p>
-            <div class="badges-contenedor">
-              <span class="badge text-bg-primary">Labora</span>
-              <span class="badge text-bg-primary">AcademiaIndustrial</span>
-              <span class="badge text-bg-primary">FormTec</span>
-              <span class="badge text-bg-primary">AreaFormacion</span>
-            </div>
+              <i class="bi bi-mortarboard"></i> <!-- Ícono más adecuado -->
+              <h3 class="experiencia-titulo">Formación</h3>
+              <p>Soy autodidacta y he complementado mi aprendizaje con cursos en centros especializados.</p>
+              <div class="badges-contenedor">
+                  <span class="badge text-bg-primary">Labora</span>
+                  <span class="badge text-bg-primary">Academia Industrial</span>
+                  <span class="badge text-bg-primary">FormTec</span>
+                  <span class="badge text-bg-primary">Área Formación</span>
+              </div>
           </div>
-        </div>
       </div>
-    </section>
+  </div>
+</section>
 
     <!-- Contacto -->
-    <section id="contacto" class="contacto seccion-oscura">
-      <div class="container">
-        <div class="container text-center rectangulo d-flex justify-content-evenly">
-          <div class="row">
-            <div class="col-12 col-md-4 seccion-titulo">
-              ¡Hablemos!
-            </div>
-            <div class="col-12 col-md-4 descripcion">
-              Contáctame para iniciar un nuevo proyecto o conocer mi C.V. entero.
-            </div>
-            <div class="col-12 col-md-4">
-              <a href="mailto:josecervera@creagrames.com">
-                <button type="button">  
-                  Contacto
-                  <i class="bi bi-envelope-check-fill"></i>
-                </button>
-              </a>
-            </div>
+<section id="contacto" class="contacto seccion-oscura">
+  <div class="container">
+      <div class="rectangulo text-center d-flex justify-content-evenly align-items-center">
+          <div class="row g-4"> <!-- Añadí g-4 para espaciado consistente -->
+              <div class="col-12 col-md-4">
+                  <h2 class="seccion-titulo">¡Hablemos!</h2> <!-- Semántica con h2 -->
+              </div>
+              <div class="col-12 col-md-4 descripcion">
+                  <p>Contáctame para iniciar un proyecto o conocer mi C.V. completo.</p> <!-- p para texto -->
+              </div>
+              <div class="col-12 col-md-4">
+                  <a href="mailto:cerveretaprofe@gmail.com" class="btn-contacto">
+                      <button type="button">
+                          Contacto <i class="bi bi-envelope-check-fill"></i>
+                      </button>
+                  </a>
+              </div>
           </div>
-        </div>
       </div>
-    </section>
+  </div>
+</section>
 
-    <!--Footer-->
-
-    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
-      <img class="footer-logo" src="imagenes/nuevologo2.png" alt="Logo del portafolio">
-      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
-      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
-        <a href="https://twitter.com/creagram" target="_blank" rel="noopener noreferrer">
-          <i class="bi bi-twitter"></i>
-        </a>
-        <a href="https://github.com/cervereta" target="_blank" rel="noopener noreferrer">
+<!-- Footer -->
+<footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+  <img class="footer-logo" src="imagenes/nuevologo2.png" alt="Logo del portafolio">
+  <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+  <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://sites.google.com/view/josecervera/inicio?authuser=2" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+        <i class="bi bi-file-person-fill"></i>
+      </a>
+      <a href="https://github.com/cervereta" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
           <i class="bi bi-github"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/jose-cervera-51a266232/" target="_blank" rel="noopener noreferrer">
+      </a>
+      <a href="https://www.linkedin.com/in/jose-cervera-51a266232/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
           <i class="bi bi-linkedin"></i>
-        </a>
-        
-        <a href="mailto:josecervera@creagrames.com" target="_blank" rel="noopener noreferrer">
+      </a>
+      <a href="mailto:cerveretaprofe@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
           <i class="bi bi-envelope"></i>
-        </a>
-      </div>
-      <div class="derechos-de-autor">Creado por Jose Cervereta (2023) &#169;</div>
-      
-    </footer>
-
+      </a>
+  </div>
+  <div class="derechos-de-autor">&copy; Creado por José Cervera (2023) </div>
+</footer>
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> 
+
+    <!-- Incluye jQuery desde un CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+<script src="scripts.js"></script>
 </body>
 </html>
